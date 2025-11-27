@@ -1,0 +1,61 @@
+# ---------------------------
+# Python / Virtual Environment
+# ---------------------------
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# ---------------------------
+# Editor and OS files
+# ---------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---------------------------
+# Shiny / Folium artifacts
+# ---------------------------
+# Folium map rendering temp files
+*.html
+
+# Autoreload caches
+__shiny_cache__/
+
+# ---------------------------
+# Logs and runtime files
+# ---------------------------
+*.log
+*.tmp
+*.temp
+
+# ---------------------------
+# Project-specific ignores
+# ---------------------------
+# Data files you don't want on GitHub
+data/*.csv
+data/*.parquet
+data/*.xlsx
+
+# Allow data/example.csv to be committed
+!data/example.csv
+
+# ---------------------------
+# Packaging / build files
+# ---------------------------
+dist/
+build/
+*.egg-info/
