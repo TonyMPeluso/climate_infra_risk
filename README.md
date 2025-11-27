@@ -29,28 +29,30 @@ The app will run at:
 http://127.0.0.1:8000
 
 ## Project Structure
+
+```
 climate_infra_risk/
-│
 ├── app/
 │   └── app_shiny.py
-│
-├── src/
-│   ├── load_assets.py
-│   ├── vulnerability.py
-│   └── __init__.py
-│
 ├── data/
 │   ├── assets.csv
 │   ├── hazards.csv
-│   ├── scenarios.csv
-│   └── synthetic_assets.csv
-│
+│   ├── climate_scenario_2020.csv
+│   ├── climate_scenario_2030.csv
+│   ├── climate_scenario_2050.csv
+│   └── climate_scenario_2080.csv
 ├── img/
-│   (optional screenshots)
-│
+│   ├── download_tab.png
+│   ├── map_tab.png
+│   ├── table_tab.png
+├── src/
+│   ├── load_assets.py
+│   └── vulnerability.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
+└── LICENSE
+```
+
 
 ## Data Description
 
