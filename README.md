@@ -2,6 +2,9 @@
 
 An interactive Shiny for Python dashboard that maps and analyzes climate-stress vulnerability for electrical infrastructure such as transformers, substations, and buildings.
 
+🌐 Live Demo
+👉 [Climate Infrastructure Risk Dashboard](https://tonympeluso.shinyapps.io/climate_infrastructure_risk/)
+
 ## Key Features
 
 - Computes a composite vulnerability index (0–100) from exposure, sensitivity, and criticality.
